@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Math</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Math - Calculating volume and area</h1>
+      <div class="figure-container">
+        <!-- First -->
+        <div class="figure-left">
+          <div class="figure-left-top">
+            <img
+              src="img/pravougaonik.png"
+              alt="rectangle"
+              class="rectangle-img"
+            />
+          </div>
+          <div class="figure-left-bottom">
+            <h2>rectangle</h2>
+          </div>
+        </div>
+        <div class="figure-middle">
+          <div class="figure-middle-top">
+            <div class="a-div">
+              <p class="a">a:</p>
+              <input type="number" class="input-a" min="1" />
+            </div>
+            <div class="b-div">
+              <p class="b">b:</p>
+              <input type="number" class="input-b" min="1" />
+            </div>
+          </div>
+          <div class="figure-middle-bottom">
+            <div class="buttons">
+              <button class="btn-volume-rectangle">Calculate volume</button>
+              <button class="btn-area-rectangle">Calculate area</button>
+            </div>
+          </div>
+        </div>
+        <div class="figure-right">
+          <div class="figure-right-top">
+            <p class="p-volume" id="rectangle-p-volume">Volume: ____</p>
+          </div>
+          <div class="figure-right-bottom">
+            <p class="p-area" id="rectangle-p-area">Area: _____</p>
+          </div>
+        </div>
+      </div>
+      <div class="figure-container">
+        <!-- Second -->
+        <div class="figure-left">
+          <div class="figure-left-top">
+            <img src="img/square.png" alt="square" class="square-img" />
+          </div>
+          <div class="figure-left-bottom">
+            <h2>square</h2>
+          </div>
+        </div>
+        <div class="figure-middle">
+          <div class="figure-middle-top">
+            <div class="a-div">
+              <p class="a">a:</p>
+              <input type="number" class="input-a-square" min="1" />
+            </div>
+            <!-- <div class="b-div">
+              <p class="b">b:</p>
+              <input type="text" class="input-b-square" />
+            </div> -->
+          </div>
+          <div class="figure-middle-bottom">
+            <div class="buttons">
+              <button class="btn-volume-square">Calculate volume</button>
+              <button class="btn-area-square">Calculate area</button>
+            </div>
+          </div>
+        </div>
+        <div class="figure-right">
+          <div class="figure-right-top">
+            <p class="p-volume-square" id="square-p-volume">Volume: ____</p>
+          </div>
+          <div class="figure-right-bottom">
+            <p class="p-area-square" id="square-p-area">Area: _____</p>
+          </div>
+        </div>
+      </div>
+      <div class="figure-container">
+        <!-- Third -->
+        <div class="figure-left">
+          <div class="figure-left-top">
+            <img src="img/circle.png" alt="circle" class="circle-img" />
+          </div>
+          <div class="figure-left-bottom">
+            <h2>circle</h2>
+          </div>
+        </div>
+        <div class="figure-middle">
+          <div class="figure-middle-top">
+            <div class="r-div">
+              <p class="r">r:</p>
+              <input type="number" class="input-r-circle" min="1" />
+            </div>
+            <!-- <div class="b-div">
+              <p class="b">b:</p>
+              <input type="text" class="input-b-square" />
+            </div> -->
+          </div>
+          <div class="figure-middle-bottom">
+            <div class="buttons">
+              <button class="btn-volume-circle">Calculate volume</button>
+              <button class="btn-area-circle">Calculate area</button>
+            </div>
+          </div>
+        </div>
+        <div class="figure-right">
+          <div class="figure-right-top">
+            <p class="p-volume-circle" id="circle-p-volume">Volume: ____</p>
+          </div>
+          <div class="figure-right-bottom">
+            <p class="p-area-circle" id="circle-p-area">Area: _____</p>
+          </div>
+        </div>
+      </div>
+      <div class="figure-container">
+        <!-- Forth -->
+        <div class="figure-left">
+          <div class="figure-left-top">
+            <img
+              src="img/right-triangle-on-white-background-260nw-1845509791.png"
+              alt="triangle"
+              class="right-triangle-img"
+            />
+          </div>
+          <div class="figure-left-bottom">
+            <h2>right angled triangle</h2>
+          </div>
+        </div>
+        <div class="figure-middle">
+          <div class="figure-middle-top">
+            <div class="a-div">
+              <p class="a">a:</p>
+              <input type="number" class="input-a-triangle" min="1" />
+            </div>
+            <div class="b-div">
+              <p class="b">b:</p>
+              <input type="number" class="input-b-triangle" min="1" />
+            </div>
+          </div>
+          <div class="figure-middle-bottom">
+            <div class="buttons-triangle">
+              <button class="btn-volume-triangle">Calculate volume</button>
+              <button class="btn-area-triangle">Calculate area</button>
+              <button class="btn-volume-c">Calculate c</button>
+            </div>
+          </div>
+        </div>
+        <div class="figure-right">
+          <div class="figure-right-top">
+            <p class="p-volume-triangle" id="triangle-p-volume">Volume: ____</p>
+          </div>
+          <div class="figure-right-bottom">
+            <p class="p-area-triangle" id="triangle-p-area">Area: _____</p>
+          </div>
+          <p class="p-area-c" id="triangle-p-c">c: _____</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

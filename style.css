@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.figure-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle-img {
+  width: 150px;
+  height: 100px;
+}
+
+.square-img {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-img {
+  width: 100px;
+  height: 100px;
+}
+
+.right-triangle-img {
+  height: 130px;
+  width: 130px;
+}
+
+.figure-left h2 {
+  text-align: center;
+}
+
+.figure-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.figure-left-top {
+  display: flex;
+  flex: 0.5;
+}
+.figure-left-bottom {
+  display: flex;
+  flex: 0.5;
+}
+
+.figure-middle {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.figure-middle-top {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.a-div {
+  margin-bottom: 10px;
+}
+
+.btn-volume-rectangle,
+.btn-volume-square {
+  margin-right: 10px;
+}
+.figure-middle-bottom {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.figure-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  flex: 1;
+}
+
+input {
+  display: inline-block;
+}
+
+p {
+  display: inline;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.buttons-triangle {
+  display: flex;
+  flex: 1;
+}
+
+.buttons-triangle button {
+  margin: 2px;
+}
